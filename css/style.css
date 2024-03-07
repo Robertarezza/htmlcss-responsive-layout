@@ -141,9 +141,12 @@ img{
 @media screen and (min-width: 992px) {
     .col{
         height: 300px;
+        margin: 20px 4px;
+        width: 32%;
     }
     .col:first-child{
         height: 300px;
+        width: 65%;
     }
     
 }
@@ -178,13 +181,15 @@ img{
 
 .development{
     background-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 20px;
 
      /* debug */
      height: 400px;
      border: 1px solid black;
 
 }
+
+/* media strategia */
 
 @media screen and (min-width:992px) {
     .cont-strategia{
@@ -204,5 +209,36 @@ img{
     #piano-strategia{
         height: 500px;
     }
+
+    .development{
+        margin-top: 2rem;
+    }
+
+    .strategia{
+        height: 430px;
+    }
 }
 
+/* /media strategia */
+
+/* sezione testimonianza */
+
+.parte-sup-testimonianze{
+    text-align: center;
+    padding: 10px;
+    
+}
+.parte-sup-testimonianze>h6,h2,p{
+    padding: 10px;
+}
+
+.card{
+    background-color:#9593e6; 
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px auto;
+ 
+
+    /* debug */
+    height: 200px;
+}
