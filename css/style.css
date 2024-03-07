@@ -68,7 +68,7 @@ img{
     border-radius: 10px;
     border: none;
     padding: 3px 5px
-    /* margin-bottom: 5px; */
+   
 }
 
 .butt-get-starred>a{
@@ -82,7 +82,7 @@ img{
     font-size: 1rem;
 }
 
-
+/* media header */
 
 @media screen and (min-width: 992px) {
     .hamburger-but{
@@ -97,3 +97,56 @@ img{
 
     
 }
+
+
+/* main */
+/* sezione hero */
+
+
+.col{
+    width: 80%;
+    background-color: #b5ddff;
+    border-radius: 10px;
+    margin: 20px auto;
+    
+
+    /* debug */
+    height: 300px;
+}
+
+.col:first-child{
+    height: 500px;
+}
+
+/* media hero */
+
+@media screen and (min-width: 768px) {
+    .colonna{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .col:first-child{
+        width: 62%;
+    }
+    .col{
+        width: 30%;
+        margin: 20px 10px;
+        height: 500px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .col{
+        height: 300px;
+    }
+    .col:first-child{
+        height: 300px;
+    }
+    
+}
+
+/* /media hero */
+/* /sezione hero */
