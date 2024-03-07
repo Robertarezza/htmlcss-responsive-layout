@@ -234,7 +234,7 @@ img{
 
 .card{
     background-color:#9593e6; 
-    width: 80%;
+    width: 100%;
     border-radius: 20px;
     margin: 20px auto;
  
@@ -242,3 +242,86 @@ img{
     /* debug */
     height: 200px;
 }
+
+.colonna-testimonianze{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width:768) {
+        .colonna-testimonianze{
+            /* width: 100%;
+            margin: 0 auto; */
+        }
+}
+
+
+/* /sezione testimonianza */
+
+/* sezione testimonianze */
+
+    #benefit{
+        background-color:#9593e6; 
+        /* margin: 20px auto; */
+        width: 100vw;
+
+        /* debug */
+        /* height: 800px; */
+    }
+
+    .titolo-benefit{
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .colonna-benefit{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .card-benefit{
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        margin: 20px auto;
+
+        /* debug */
+        height: 200px;
+    }
+
+   
+    
+    /* media benefit */
+
+    @media screen and (min-width:768px) {
+        .colonna-benefit{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 80%;
+
+        }
+        .card-benefit{
+            width: 48%;
+            /* margin:10px 10px 5px 5px; */
+        }
+
+    }
+
+    @media screen and (min-width: 992px) {
+        .card-benefit{
+            width: 32.5%;
+            margin:2px 0;
+           
+        }
+        .colonna-benefit{
+            width: 100%%;
+            margin: 0 auto;
+            justify-content: space-between;
+            padding: 0;
+        }
+    }
+
+
+/* /sezione testimonianze */
