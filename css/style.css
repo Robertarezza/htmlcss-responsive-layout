@@ -150,3 +150,59 @@ img{
 
 /* /media hero */
 /* /sezione hero */
+
+
+/* sezione strategia */
+
+#piano-strategia{
+    background-color: #9593e6;
+    padding: 10px;
+
+    /* debug */
+    height: 900px;
+}
+
+.cont-strategia{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.strategia{
+    background-color: aqua;
+    margin: 20px auto;
+
+    /* debug */
+    height: 400px;
+    border: 1px solid black;
+}
+
+.development{
+    background-color: aliceblue;
+    border-radius: 10px;
+
+     /* debug */
+     height: 400px;
+     border: 1px solid black;
+
+}
+
+@media screen and (min-width:992px) {
+    .cont-strategia{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+
+    }
+    .development, .strategia{
+        width: 35%;
+        margin: 0;
+    }
+
+    #piano-strategia{
+        height: 500px;
+    }
+}
+
