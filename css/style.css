@@ -30,6 +30,8 @@ img{
     justify-content: space-between;
 }
 
+
+
 /* header */
 .header{
     background-color: #0084fd;
@@ -97,7 +99,8 @@ img{
 
     
 }
-
+/* /media header */
+/* /header */
 
 /* main */
 /* sezione hero */
@@ -220,6 +223,8 @@ img{
 }
 
 /* /media strategia */
+/* /sezione strategia */
+
 
 /* sezione testimonianza */
 
@@ -249,21 +254,15 @@ img{
 }
 
 
-@media screen and (min-width:768) {
-        .colonna-testimonianze{
-            /* width: 100%;
-            margin: 0 auto; */
-        }
-}
-
-
 /* /sezione testimonianza */
 
-/* sezione testimonianze */
+
+
+/* sezione benefit */
 
     #benefit{
         background-color:#9593e6; 
-        /* margin: 20px auto; */
+        padding: 10px 0;
         width: 100vw;
 
         /* debug */
@@ -316,12 +315,102 @@ img{
            
         }
         .colonna-benefit{
-            width: 100%%;
+            width: 100%;
             margin: 0 auto;
             justify-content: space-between;
             padding: 0;
         }
     }
 
+/* /media benefit */
+/* /sezione benefit */
 
-/* /sezione testimonianze */
+/* sezione About-Us */
+
+.about-us-sinistra, .about-us-destra {
+    width: 50%;
+    margin: 0 auto;
+    /* debug */
+    background-color: #0084fd;
+    border: 0.5px solid black;
+    height: 300px;
+}
+
+.cont-abou {
+    width: 80%;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+
+/* /sezione About-Us */
+
+/* <!-- sezione Get-starred --> */
+#get{
+    background-color: #9593e6;
+    padding: 20px 0;
+}
+
+.cont-starred{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cont-starred>h6,h4,h3,p,button,div{
+    margin-bottom: 20px;
+}
+
+
+/* media sezione get starred */
+
+@media screen and (min-width:768px) {
+    .cont-starred{
+        width: 70%;
+      
+    }
+}
+
+@media screen and (min-width: 992px){
+    .cont-starred{
+        width: 35%;
+       
+    }
+}
+/* <!-- /sezione Get-starred --> */
+/* /media sezione get starred */
+/* /main */
+
+/* footer */
+.footer{
+    background-color: black;
+    height: 300px;
+   
+
+}
+.cont-footer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cont-footer>p {
+    color: white;
+    padding-top: 50px;
+      
+}
+
+
+@media screen and (min-width:768px) {
+    .cont-footer{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cont-footer{
+        width: 20%;
+       
+    }
+}
+/* /footer */
