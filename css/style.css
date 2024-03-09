@@ -255,11 +255,16 @@ body{
         
     }
     .second-col>p {
-        font-size: 0.9rem
+        font-size: 0.9rem;
+        
 
     }
-
-
+    .h-im{
+        width: 50%;
+    }
+    .second-col>i{
+        font-size: 5rem;
+    }
 }
 
 
@@ -275,14 +280,30 @@ body{
        
         width: 65%;
         display: flex;
+        height: 30%;
         
     }
     .h-im {
-        padding-top: 150px;
-        
+        padding-top: 50px;
+        width: 80%;
         
     }
-    
+
+    .second-col {
+        padding:0;
+    }
+
+    .second-col>h5{
+       
+        font-size: 1rem;
+        
+    }
+    .second-col>p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+
+
+    }  
 }
 
 /* /media hero */
@@ -291,12 +312,13 @@ body{
 
 /* sezione strategia */
 
+
+
 #piano-strategia{
     background-color: #9593e6;
-    padding: 10px;
+    padding-bottom: 53px;
 
-    /* debug */
-    height: 900px;
+    
 }
 
 .cont-strategia{
@@ -305,52 +327,128 @@ body{
 }
 
 .strategia{
-    background-color: aqua;
     margin: 20px auto;
-
-    /* debug */
-    height: 400px;
-    border: 1px solid black;
+    padding-bottom: 20px;
+    
+    
+  
 }
+
+.strategia>h3 {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 980;
+    padding: 40px 0;
+}
+
+.strategia>p{
+    font-weight: 900;
+    color: white;
+    line-height: 1.7rem;
+}
+
 
 .development{
     background-color: aliceblue;
-    border-radius: 20px;
+    border-radius: 55px;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
 
-     /* debug */
-     height: 400px;
-     border: 1px solid black;
+    
+}
 
+.development>h3{
+    font-size: 1.3rem;
+    color:black;
+    font-weight: 800;
+    padding: 40px 0 20px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.development>p{
+    font-weight: 200;
+    color: #524c4c;
+    line-height: 1.7rem;
+    font-family: cursive;
+    padding: 0 15px 20px 15px;
+}
+
+.dev-btn{
+    background-color:  #9593e6;
+    border-radius: 50%;
+    border: none;
+}
+
+.dev-btn>i{
+    font-size:1rem ;
+    padding: 15px;
 }
 
 /* media strategia */
 
+@media screen and (min-width: 768px){
+    .strategia>h3 {
+        font-size: 2.5rem;
+    }
+}
+
+
+
 @media screen and (min-width:992px) {
+    
+    #piano-strategia{
+        padding-bottom: 15px;
+    
+    }
+    
     .cont-strategia{
-        width: 70%;
         display: flex;
         justify-content: center;
         align-content: center;
         flex-wrap: wrap;
         padding-top: 50px;
+        width: 70%;
 
     }
-    .development, .strategia{
-        width: 35%;
+    .strategia{
+        width: 40%;
         margin: 0;
     }
 
-    #piano-strategia{
-        height: 500px;
-    }
+   
 
     .development{
-        margin-top: 2rem;
+        margin-top: 6.5rem;
+        margin-left: 2rem;
+        width: 45%;
+        height: 30%;
+        padding: 10px 10px 20px 10px;
     }
 
-    .strategia{
-        height: 430px;
+    .strategia>h3{
+        font-size: 1.2rem;
     }
+
+    .strategia>p{
+        font-size: 0.7rem;
+       
+    }
+
+    .development>img{
+        width: 50%;
+    }
+
+    .development>h3{
+        font-size: 1.1rem;
+      
+    }
+
+     .development>p{
+      font-size: 0.8rem;
+    
+
+     }
+
 }
 
 /* /media strategia */
