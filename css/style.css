@@ -512,8 +512,10 @@ body{
 
 .foto-testimonianze>img{
     border-radius: 50%;
-    height: 230px;
+    /* height: 230px; */
     object-fit: cover;
+    width: 80%;
+    aspect-ratio: 1;
 }
 
 .colonna-testimonianze {
@@ -738,8 +740,10 @@ body{
 
 .ft-about>img{
     border-radius: 50%;
-    height: 230px;
+    /* height: 230px; */
     object-fit: cover;
+    width: 70%;
+    aspect-ratio: 1;
 }
 
 .ft-about>i{
