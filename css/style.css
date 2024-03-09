@@ -271,9 +271,15 @@ body{
 
 
 @media screen and (min-width: 992px) {
+    
+    .colonna{
+        padding-bottom: 55px;
+    }
+    
+    
     .col{
        
-        margin: 20px 4px;
+        margin: 10px 4px;
         width: 32%;
     }
     .col:first-child{
@@ -366,11 +372,11 @@ body{
 }
 
 .development>p{
-    font-weight: 200;
+    font-weight: 800;
     color: #524c4c;
     line-height: 1.7rem;
-    font-family: cursive;
     padding: 0 15px 20px 15px;
+    font-style: oblique;
 }
 
 .dev-btn{
@@ -432,6 +438,7 @@ body{
     .strategia>p{
         font-size: 0.7rem;
        
+       
     }
 
     .development>img{
@@ -445,6 +452,9 @@ body{
 
      .development>p{
       font-size: 0.8rem;
+      font-weight: bold;
+      line-height: 1.5rem;
+      font-style: oblique;
     
 
      }
@@ -465,32 +475,103 @@ body{
 
 .parte-sup-testimonianze>h6 {
     padding: 10px;
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 .parte-sup-testimonianze>h2 {
     padding: 10px;
+    color: #9593e6;
+    font-size: 2.2rem;
+    font-weight: 900;
 }
 
 .parte-sup-testimonianze>p {
     padding: 10px;
+    font-weight: 500;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+    color: #2a2a2a;
 }
 
 
 .card {
     background-color:#9593e6; 
     width: 100%;
-    border-radius: 20px;
+    border-radius: 50px;
     margin: 20px auto;
+    padding: 20px;
  
 
     /* debug */
-    height: 200px;
+    /* height: 200px; */
+}
+.foto-testimonianze{
+    padding: 20px;
+}
+
+.foto-testimonianze>img{
+    border-radius: 50%;
+    height: 230px;
+    object-fit: cover;
 }
 
 .colonna-testimonianze {
     margin: 0 auto;
+    text-align: center;
 }
 
+.descrizione-test>p{
+    padding: 10px;
+    font-weight: 500;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.descrizione-test>h4 {
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.fa-quote-left{
+    font-size: 1.7rem;
+    margin-right: 7px;
+}
+
+.fa-quote-right{
+    font-size: 1.7rem;
+    margin-left: 7px;
+ 
+}
+
+/* media testimonianze */
+
+@media screen and (min-width: 768px){
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .foto-testimonianze{
+        width: 40%;
+    }
+
+    .descrizione-test{
+        width: 60%;
+        text-align: left;
+    }
+
+    .descrizione-test>p{
+        font-size: 1rem;
+        padding: 10px 10px 10px 0;
+
+}
+
+}
 
 /* /sezione testimonianza */
 
