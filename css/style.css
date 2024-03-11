@@ -9,7 +9,7 @@ img{
 }
 
 a{
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 body{
@@ -91,14 +91,14 @@ body{
 }
 
 .lista-header{
-    display: none; 
+    display: none;
 }
 
 .lista-header ul{
     list-style-type: none;
         display: flex;
         gap: 16px;
-    
+
 }
 
 .lista-header ul li>a{
@@ -114,7 +114,7 @@ body{
     border-radius: 10px;
     border: none;
     padding: 3px 5px
-   
+
 }
 
 .butt-get-starred>a{
@@ -135,14 +135,14 @@ body{
     .hamburger-but{
         display: none;
     }
-    
-    
+
+
     .lista-header {
         display: block;
-        
+
     }
 
-    
+
 }
 /* /media header */
 /* /header */
@@ -176,7 +176,7 @@ body{
     font-weight: 900;
     color: gray;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     line-height: 1.7rem;
 }
 
@@ -188,18 +188,21 @@ body{
 
 .btn-col{
     background-color: #0084fd;
-    border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 7px 40px;
     margin: 20px 0;
+    border: none;
+  
 }
+
 
 
 .h-im {
     padding-top: 10px;
     display: flex;
-    
+
 }
+
 
 .second-col {
     text-align: center;
@@ -224,6 +227,9 @@ body{
     padding-top: 10px;
     padding-bottom: 20px;
     line-height: 1.7rem;
+
+    /* per spaziare le lettere */
+    /* letter-spacing: 2px; */
 }
 
 /* media hero */
@@ -235,12 +241,13 @@ body{
         justify-content: space-between;
     }
     .col:first-child{
-        width: 65%;
+        width: 65%;  
+
     }
     .col{
         width: 30%;
         margin: 20px 0;
-    
+
     }
 
     .first-col>h3{
@@ -250,14 +257,25 @@ body{
        font-size: 0.9rem;
     }
 
-    .second-col>h5{
-       
-        font-size: 1.3rem;
+    .h-im>img {
+        max-width: 200px;
         
+
+     }
+
+     .h-im {
+       padding-top: 26px;
+     }
+
+
+    .second-col>h5{
+
+        font-size: 1.3rem;
+
     }
     .second-col>p {
         font-size: 0.9rem;
-        
+
 
     }
     .h-im{
@@ -272,28 +290,28 @@ body{
 
 
 @media screen and (min-width: 992px) {
-    
+
     .colonna{
         padding-bottom: 55px;
     }
-    
-    
+
+
     .col{
-       
+
         margin: 10px 4px;
         width: 32%;
     }
     .col:first-child{
-       
+
         width: 65%;
         display: flex;
-        height: 30%;
         
+
     }
     .h-im {
-        padding-top: 50px;
         width: 80%;
-        
+        align-self: flex-end;
+
     }
 
     .second-col {
@@ -301,16 +319,16 @@ body{
     }
 
     .second-col>h5{
-       
+
         font-size: 1rem;
-        
+
     }
     .second-col>p {
         font-size: 0.8rem;
         line-height: 1.2rem;
 
 
-    }  
+    }
 }
 
 /* /media hero */
@@ -325,7 +343,7 @@ body{
     background-color: #9593e6;
     padding-bottom: 53px;
 
-    
+
 }
 
 .cont-strategia{
@@ -336,9 +354,9 @@ body{
 .strategia{
     margin: 20px auto;
     padding-bottom: 20px;
-    
-    
-  
+
+
+
 }
 
 .strategia>h3 {
@@ -361,7 +379,7 @@ body{
     text-align: center;
     padding: 10px 10px 20px 10px;
 
-    
+
 }
 
 .development>h3{
@@ -402,12 +420,12 @@ body{
 
 
 @media screen and (min-width:992px) {
-    
+
     #piano-strategia{
         padding-bottom: 15px;
-    
+
     }
-    
+
     .cont-strategia{
         display: flex;
         justify-content: center;
@@ -422,7 +440,7 @@ body{
         margin: 0;
     }
 
-   
+
 
     .development{
         margin-top: 6.5rem;
@@ -438,8 +456,8 @@ body{
 
     .strategia>p{
         font-size: 0.7rem;
-       
-       
+
+
     }
 
     .development>img{
@@ -448,7 +466,7 @@ body{
 
     .development>h3{
         font-size: 1.1rem;
-      
+
     }
 
      .development>p{
@@ -456,7 +474,7 @@ body{
       font-weight: bold;
       line-height: 1.5rem;
       font-style: oblique;
-    
+
 
      }
 
@@ -471,7 +489,7 @@ body{
 .parte-sup-testimonianze{
     text-align: center;
     padding: 10px;
-    
+
 }
 
 .parte-sup-testimonianze>h6 {
@@ -497,12 +515,12 @@ body{
 
 
 .card {
-    background-color:#9593e6; 
+    background-color:#9593e6;
     width: 100%;
     border-radius: 50px;
     margin: 20px auto;
     padding: 20px;
- 
+
 
     /* debug */
     /* height: 200px; */
@@ -547,7 +565,7 @@ body{
 .fa-quote-right{
     font-size: 1.7rem;
     margin-left: 7px;
- 
+
 }
 
 /* media testimonianze */
@@ -583,11 +601,11 @@ body{
 /* sezione benefit */
 
     #benefit{
-        background-color:#9593e6; 
+        background-color:#9593e6;
         padding: 10px 20px 25px 20px;
         width: 100vw;
 
-        
+
     }
 
     .titolo-benefit{
@@ -598,7 +616,7 @@ body{
     }
 
     .colonna-benefit{
-      
+
         margin: 0 auto;
     }
 
@@ -620,7 +638,7 @@ body{
         color: #9593e6;
         padding-right: 5px;
         font-weight: bolder;
-    
+
     }
 
     .card-benefit>h3{
@@ -636,7 +654,7 @@ body{
     font-size: 1.2rem;
     color: gray;
 }
-    
+
 .benefit-bt{
     background-color: #9593e6;
     border-radius: 20px;
@@ -649,8 +667,8 @@ body{
     font-size: 1.2rem;
     padding: 10px;
 }
-   
-    
+
+
     /* media benefit */
 
     @media screen and (min-width:768px) {
@@ -658,12 +676,12 @@ body{
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-           
+
 
         }
         .card-benefit{
             width: 48%;
-            
+
         }
 
     }
@@ -672,7 +690,7 @@ body{
         .card-benefit{
             width: 30%;
             padding: 30px 15px;
-           
+
         }
         .colonna-benefit{
             width: 100%;
@@ -680,18 +698,18 @@ body{
             justify-content: space-between;
             padding: 0;
         }
-    
+
         .card-benefit>h3{
             font-size: 1.2rem;
         }
-    
+
         .card-benefit>p{
-           
+
             line-height: 1.5rem;
             font-size: 0.9rem;
-           
+
         }
-    
+
     }
 /* /media benefit */
 /* /sezione benefit */
@@ -794,11 +812,11 @@ padding: 10px 0 20px 0;
 
     .about-us-destra>h4{
         font-size: 1.7rem;
-       
-        
+
+
     }
 
-    
+
 
     .ft-about>i{
         font-size: 3rem;
@@ -820,16 +838,16 @@ padding: 10px 0 20px 0;
     }
 
     .about-us-sinistra>p{
-       
+
         padding-right: 20px;
         font-size: 0.8rem;
-       
+
     }
 
     .about-us-destra>h4{
         font-size: 1.3rem;
-       
-        
+
+
     }
     .bt-about{
        padding: 7px 10px;
@@ -876,8 +894,8 @@ padding: 10px 0 20px 0;
 
 .cont-starred>p {
     color: white;
-    line-height: 2rem;  
-    padding-bottom: 20px;  
+    line-height: 2rem;
+    padding-bottom: 20px;
 }
 
 .get-bt{
@@ -918,14 +936,14 @@ color: white;
 @media screen and (min-width:768px) {
     .cont-starred{
         width: 70%;
-      
+
     }
 }
 
 @media screen and (min-width: 992px) {
     .cont-starred{
         width: 40%;
-       
+
     }
 }
 /* <!-- /sezione Get-starred --> */
@@ -937,7 +955,7 @@ color: white;
 /* footer */
 .footer {
     background-color: black;
-   
+
 }
 
 .cont-footer {
@@ -951,7 +969,7 @@ color: white;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 0.9rem;
-      
+
 }
 
 .cont-footer>p a{
@@ -971,13 +989,13 @@ color: white;
     .cont-footer{
         width: 40%;
         font-size: 0.7rem;
-       
+
     }
 
     .cont-footer>p {
         color: rgb(235, 227, 227);
         font-size: 0.7rem;
-          
+
     }
 }
 
